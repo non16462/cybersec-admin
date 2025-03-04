@@ -1,0 +1,18 @@
+#user
+# POST http://localhost:3000/user
+# Content-Type: application/json
+
+# {
+#     "username": "demo6",
+#     "password": "demo6"
+# }
+# POST http://localhost:3000/user/2
+# Content-Type: application/json
+
+# {
+#    "username": "demo2",
+#    "password": "demo2"
+# }
+//DELETE User 
+DELETE http://localhost:3000/user/2
+
