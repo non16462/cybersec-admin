@@ -16,3 +16,6 @@
 //DELETE User 
 DELETE http://localhost:3000/user/2
 
+#user
+GET  http://localhost:3000/user/sesrch?q=d
+Content-Type: application/json
